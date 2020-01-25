@@ -1,0 +1,12 @@
+* h4{
+    font-family: "Roboto", "Helvetica", "Arial", "sans-serif";
+    font-weight: 100;
+}
+
+#loadingTransactionDeletion{
+    position: absolute;
+
+    margin-top: -12;
+    margin-left: -12;
+    color: #F50057;
+}

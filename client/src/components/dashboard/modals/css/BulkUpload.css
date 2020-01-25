@@ -1,0 +1,18 @@
+.stepContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+    height: 100%;
+    margin: 30px 10px 10px 10px;
+}
+
+.stepContent #listOfUserTransactions{
+    align-self: stretch;
+}
+
+.stepContent h4{
+    margin-top: 20px;
+}

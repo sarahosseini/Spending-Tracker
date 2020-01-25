@@ -1,0 +1,29 @@
+* {
+    font-family: "Roboto", "Helvetica", "Arial", "sans-serif";
+}
+
+.detailedActivity{
+    overflow-x: auto;
+    width: 96%;
+    min-width: 350px;
+    height: 50%;
+    align-self: center;
+
+    margin: 0% 2% 2% 2%;
+}
+
+.detailedActivity h3{
+    margin: 25px 0px 15px 15px;
+}
+
+.detailedActivity h5 {
+    margin: 5px;
+}
+
+
+/*Mobile devices only: hide detailed activity section*/
+@media only screen and (max-width: 1137px){
+    .detailedActivity{
+        display: none;
+    }
+}

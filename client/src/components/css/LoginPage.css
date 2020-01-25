@@ -1,0 +1,81 @@
+* {
+    font-family: "Roboto", "Helvetica", "Arial", "sans-serif";
+}
+
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    height: 70vh;
+}
+
+.loginContainer .loginContent{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-top: 5%;
+
+    height: 70%;
+    width: 50%;
+    min-width: 300px;
+
+    /*Animations short-hand: {duration} {timing-function} {dekay} {itetarion-count} {nameOfAnimation}*/
+    animation: 0.4s ease-out 0s 1 fadeUpFromBottom;
+}
+
+.loginContainer .loginContent .welcomeMessage{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 40px;
+}
+
+.loginContainer .loggedInContent{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 10%;
+
+    height: 70%;
+    width: 50%;
+    min-width: 300px;
+
+    /*Animations short-hand: {duration} {timing-function} {dekay} {itetarion-count} {nameOfAnimation}*/
+    animation: 0.4s ease-out 0s 1 slideInFromBottom;
+}
+
+/*Rise up tranistion*/
+@keyframes slideInFromBottom{
+    0% {
+        transform: translateY(100%) rotate(20deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeUpFromBottom{
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

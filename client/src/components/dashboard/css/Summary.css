@@ -1,0 +1,21 @@
+h2{
+    margin: 20px 0px 15px 15px;
+}
+
+.summary{
+    align-self: center;
+    margin: 2%;
+    flex-grow: 1;
+}
+
+.summaryBody{
+    margin: 10px;
+    font-size: 13pt;
+}
+
+/*Mobile devices only: hide detailed activity section*/
+@media only screen and (max-width: 1137px){
+    .summary{
+        width: 90vw;
+    }
+}

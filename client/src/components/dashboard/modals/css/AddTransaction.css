@@ -1,0 +1,36 @@
+.addTransactionInfo{
+
+    width: 100%;
+    height: 100%;
+    margin-top: 3%;
+}
+
+.addTransactionInfo h4{
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+
+.addTransactionInfo .inputFields{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: center;
+
+}
+
+.addTransactionInfo .inputFields .singeLineInputField{
+    margin: 15px 15px 15px 0;
+}
+
+.addTransactionInfo .multiLineInputField{
+    margin: 15px 0px 15px 0px;
+}
+
+#loadingTransactionCreation{
+    position: absolute;
+
+    margin-top: -12;
+    margin-left: -12;
+    color: #3F51B5;
+}
